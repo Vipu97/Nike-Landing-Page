@@ -65,7 +65,6 @@
 
 /* right part */
 .right-part{
-    /* background-image: url("images/collection-background.svg"); */
     height: 760px;
     width: 762px;
     position: absolute;
@@ -87,7 +86,7 @@
     bottom: -2.5rem;
 }
 .small-images{
-    background-image: url("images/thumbnail-background.svg");
+    /* background-image: url("images/thumbnail-background.svg"); */
     background-position: center;
     background-size: cover;
     border-radius: 10px;
