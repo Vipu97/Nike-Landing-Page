@@ -1,0 +1,53 @@
+.q-wrapper{
+    padding:5rem 2rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+.text-part{
+    width: 500px;
+    padding-top: 2.5rem;
+}
+.text-part > h1{
+    font-size: 2.9rem;
+    line-height: 3.8rem;
+    margin-bottom: 1rem;
+}
+.text-part > h1 > span{
+    color: #FF6542;
+}
+.text-part > p{
+    font-size: 1.2em;
+    color: gray;
+    line-height: 1.4em;
+    margin-bottom: 1rem;
+    letter-spacing: 0.7px;
+}
+.text-part > button{
+    margin-top:3rem;
+    margin-bottom: 2rem;
+    background-color: #FF6542;
+    width: 11.4rem;
+    height: 55px;
+    border-radius: 40px;
+    border: none;
+    color: white;
+    font-size: 1.3em;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    font-weight: 200;
+}
+@media (width <= 1024px) {
+    .q-wrapper{
+        flex-direction: column;
+        align-items: center;
+        padding-top: 0rem;
+    }
+    .text-part{
+        width: 100%;
+    }
+    .image-part > img{
+        width: 100%;
+    }
+}

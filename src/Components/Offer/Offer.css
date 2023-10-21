@@ -1,0 +1,67 @@
+.o-wrapper{
+    padding:5rem 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.o-left-part > img{
+    max-width: 700px;
+    max-height: 550px;
+    width: 100%;
+}
+.o-right-part{
+    max-width: 550px;
+    width: 500px;
+    min-width: 500px;
+    flex-basis: 100%;
+    flex: 1;
+    padding: 0rem 2rem;
+}
+.o-right-part > h1{
+    font-size: 48px;
+    line-height: 60px;
+    margin-bottom: 1rem;
+}
+.o-right-part > h1 > span{
+    color: #FF6542;
+}
+.o-right-part > p{
+    font-size: 1.2em;
+    color: gray;
+    margin-bottom: 1rem;
+}
+.o-right-part>p:nth-of-type(2){
+    margin-bottom: 3rem;
+}
+.o-right-part > button{
+    height: 50px;
+    width: 160px;
+    border-radius: 30px;
+    color: gray;
+    font-size: 1.2em;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.o-right-part > .orangeButton{
+    background-color: #FF6542;
+    color: white;
+    border: none;
+    margin-right: 1rem;
+}
+@media (width <= 1215px) {
+    .o-left-part{
+        order: 2;
+    }
+    .o-right-part{
+        max-width: 700px;
+        min-width: 300px;
+        margin-bottom: 2.5rem;
+        padding: 0;
+    }
+}
+@media (width <= 495px) {
+    .orangeButton{
+        margin-bottom: 1rem;
+    }
+}

@@ -1,0 +1,25 @@
+.icon-rating{
+    margin-top: 1.5rem;
+    display: flex;
+    gap: 0.7rem;
+    align-items: center;
+}
+.icon-rating >span{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 22px;
+    font-weight: 400;
+    color: grey;
+}
+.name{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.price{
+    color: #FF6542;
+    font-weight: 600;
+    font-size: 1.2em;
+    margin-bottom: 0;
+}
+.price > span{
+    font-family:Arial, Helvetica, sans-serif;
+}

@@ -1,0 +1,31 @@
+.c-wrapper{
+    padding: 0rem 2rem;
+}
+.heading-part{
+    padding-left: 1rem;
+}
+.heading-part > h1{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    line-height: 3.5rem;
+}
+.heading-part > h1 > span{
+    color: #FF6542;
+}
+.heading-part > p{
+    max-width: 500px;
+    font-size: 17px;
+    font-weight: 400;
+    color: gray;
+    letter-spacing: 0.6px;
+    line-height: 27px;
+    margin-bottom: 3rem;
+}
+.corousel-part{
+    display: flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+}
+.corousel-part > .shoe-container{
+    margin-bottom: 4rem;
+}

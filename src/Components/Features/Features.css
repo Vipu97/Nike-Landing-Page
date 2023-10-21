@@ -1,0 +1,31 @@
+.f-wrapper{
+    padding: 2.5rem 2rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.container{
+    background-color: white;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, .1);
+    padding: 4rem 2rem;
+    flex-basis: 100%;
+    flex: 1;
+    min-width:300px;
+}
+.container >div{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: #FF6542;
+    display: flex;
+    justify-content: center;
+}
+.container > div > img{
+    width: 25px;
+}
+.container > p{
+    font-size: 1.2em;
+    color: gray;
+    font-weight: 400;
+}
