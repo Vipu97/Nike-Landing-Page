@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './Hero.css';
-import ShoeContainer from '../ShoeContainer/ShoeContainer';
+import background from '../../../public/images/collection-background.svg';
 
 const Hero = () => {
     const [shoe,setShoe] = useState('1');
@@ -36,7 +36,7 @@ const Hero = () => {
         </div>
 
         {/* right-part */}
-        <div className="right-part">
+        <div className="right-part" style={{backgroundImage:`url(${background})`}}>
             <div className="big-shoe">
                 <img src={`images/big-shoe${shoe}.png`} alt="big-shoe" />
             </div>

@@ -65,7 +65,7 @@
 
 /* right part */
 .right-part{
-    background-image: url("images/collection-background.svg");
+    /* background-image: url("images/collection-background.svg"); */
     height: 760px;
     width: 762px;
     position: absolute;
