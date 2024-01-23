@@ -1,10 +1,12 @@
 .q-wrapper{
-    padding:5rem 2rem;
+    padding:6rem 3rem;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    column-gap: 7rem;
 }
 .text-part{
     width: 500px;
+    min-width: 350px;
     padding-top: 2.5rem;
 }
 .text-part > h1{
@@ -26,8 +28,8 @@
     margin-top:3rem;
     margin-bottom: 2rem;
     background-color: #FF6542;
-    width: 11.4rem;
-    height: 55px;
+    width: 15rem;
+    height: 60px;
     border-radius: 40px;
     border: none;
     color: white;
@@ -37,12 +39,17 @@
     gap: 10px;
     justify-content: center;
     font-weight: 200;
+    transition: 0.4s all;
+    cursor: pointer;
 }
-@media (width <= 1024px) {
+.text-part > button:hover{
+    scale: 1.1;
+}
+@media (width <= 1076px) {
     .q-wrapper{
         flex-direction: column;
         align-items: center;
-        padding-top: 0rem;
+        padding:2rem;
     }
     .text-part{
         width: 100%;

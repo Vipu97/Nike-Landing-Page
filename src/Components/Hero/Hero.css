@@ -1,5 +1,5 @@
 .hero-wrapper{
-    margin-bottom: 12rem;
+    margin-bottom: 10rem;
 }
 .left-part{
     padding-left: 3.7rem;
@@ -43,11 +43,17 @@
     gap: 10px;
     justify-content: center;
     font-weight: 200;
+    transition: 0.3s all;
+    cursor: pointer;
+}
+.left-part > button:hover{
+    scale: 1.1;
 }
 .left-part > .stats{
     margin-top: 3.7rem;
     display: flex;
-    gap: 4rem;
+    column-gap: 4rem;
+    row-gap: 2rem;
     flex-wrap: wrap;
 }
 .left-part > .stats > h1{
@@ -66,7 +72,7 @@
 /* right part */
 .right-part{
     height: 760px;
-    width: 762px;
+    width: 760px;
     position: absolute;
     top: 0rem;
     left: 43vw;
@@ -86,7 +92,6 @@
     bottom: -2.5rem;
 }
 .small-images{
-    /* background-image: url("images/thumbnail-background.svg"); */
     background-position: center;
     background-size: cover;
     border-radius: 10px;
@@ -96,14 +101,21 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
+    transition: 0.3s all;
+}
+.small-images:hover{
+    scale: 1.1;
+    border: 1px solid #FF6542;
 }
 .small-images > img{
     height: 120px;
     width:120px;
     z-index: 1;
 }
+
 .orangeBorder{
-    border: 2px solid #FF6542;
+    border: 3px solid #FF6542;
 }
 @media (width <= 1280px) {
     .right-part{

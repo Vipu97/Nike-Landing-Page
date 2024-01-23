@@ -31,6 +31,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 .footer-logo>img{
     height:30px;
@@ -62,6 +63,7 @@
     display: flex;
     justify-content: space-between;
     width: 100%;
+    align-items: center;
 }
 @media (width <= 650px) {
     .second-col{

@@ -5,7 +5,7 @@ const Form = () => {
   return (
     <div className="form-wrapper" id='contact-us'>
         <div className="form-text-part">
-            <h1>Sign Up froms <span>Updates </span>& Newsletter</h1>
+            <h1>Sign Up from <span>Updates </span>& Newsletter</h1>
         </div>
         <div className='input-part'>
             <input type="text" placeholder='subscribe@nike.com'/>

@@ -2,7 +2,7 @@
     padding: 0rem 2rem;
 }
 .heading-part{
-    padding-left: 1rem;
+    padding-left: 2rem;
 }
 .heading-part > h1{
     font-size: 3rem;
@@ -25,7 +25,17 @@
     display: flex;
     justify-content:space-around;
     flex-wrap:wrap;
+    column-gap: 1rem;
 }
 .corousel-part > .shoe-container{
     margin-bottom: 4rem;
+}
+@media (width <= 643px) {
+    .corousel-part > .shoe-container > img{
+        width:60vw;
+    } 
+    .heading-part{
+        padding-left: 0rem;
+        text-align: center;
+    }
 }

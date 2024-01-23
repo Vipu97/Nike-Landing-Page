@@ -52,7 +52,7 @@ const Footer = () => {
           <h1>Help</h1>
           <ul>
             <li>
-              <a href="">About uS</a>
+              <a href="">About Us</a>
             </li>
             <li>
               <a href="">FAQs</a>
@@ -82,7 +82,7 @@ const Footer = () => {
       </div>
       <div className="copyright-section">
         <p>
-          <img src="icons/copyright-sign.svg" alt="" />
+          <img src="icons/copyright-sign.svg" alt="copyright-logo" />
           Copyright. All rights reserved.
         </p>
         <p>Terms and Conditions</p>

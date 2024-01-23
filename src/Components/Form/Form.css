@@ -46,6 +46,11 @@
     border: none;
     color: white;
     font-size: 1.1em;
+    transition: 0.3s all;
+    cursor: pointer;
+}
+.orange-btn:hover{
+    scale: 1.1;
 }
 .form-wrapper > .orange-btn{
     display: none;
@@ -60,7 +65,7 @@
     }
     .form-wrapper > .orange-btn{
         display: block;
-        width: 150px;
+        width: 200px;
     }
     .form-text-part > h1{
         font-size: 2.4rem;

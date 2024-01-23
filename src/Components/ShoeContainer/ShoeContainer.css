@@ -10,6 +10,11 @@
     font-weight: 400;
     color: grey;
 }
+.shoe-container > img:hover{
+    transform: scale(1.1);
+    transition: 0.4s all;
+    cursor: pointer;
+}
 .name{
     font-size: 1.5rem;
     font-weight: 600;
