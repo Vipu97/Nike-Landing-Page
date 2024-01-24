@@ -45,7 +45,7 @@
     transition: 0.4s all;
     cursor: pointer;
 }
-.text-part > button:hover{
+.text-part > a > button:hover{
     scale: 1.1;
 }
 @media (width <= 1076px) {

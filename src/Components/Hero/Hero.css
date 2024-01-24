@@ -49,7 +49,7 @@
     transition: 0.3s all;
     cursor: pointer;
 }
-.left-part > button:hover{
+.left-part > a > button:hover{
     scale: 1.1;
 }
 .left-part > .stats{
