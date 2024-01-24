@@ -24,7 +24,10 @@
     margin-bottom: 1rem;
     letter-spacing: 0.7px;
 }
-.text-part > button{
+.text-part > a{
+    text-decoration: none;
+}
+.text-part > a > button{
     margin-top:3rem;
     margin-bottom: 2rem;
     background-color: #FF6542;

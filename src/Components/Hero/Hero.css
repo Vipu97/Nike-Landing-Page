@@ -30,7 +30,10 @@
     color: gray;
     margin: 2rem 0rem 3rem;
 }
-.left-part > button{
+.left-part > a{
+    text-decoration: none;
+}
+.left-part > a > button{
     background-color: #FF6542;
     width: 11.4rem;
     height: 55px;
@@ -141,6 +144,7 @@
         margin-top: -3rem;
     }
     .left-part{
+        position:relative;
         padding-left: 1rem;
     }
     .left-part > h1{

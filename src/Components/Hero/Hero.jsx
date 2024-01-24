@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Hero.css";
-import background from "../../../public/images/collection-background.svg";
-import smallBg from "../../../public/images/thumbnail-background.svg";
+import background from "/images/collection-background.svg";
+import smallBg from "/images/thumbnail-background.svg";
 
 const Hero = () => {
   const [shoe, setShoe] = useState("1");
@@ -22,10 +22,12 @@ const Hero = () => {
           <br />
           comfort, and innovation for your active life.
         </p>
-        <button>
-          <span>Shop now</span>
-          <img src="icons/arrow-right.svg" alt="arrow" />
-        </button>
+        <a href="https://www.nike.com/in/w/mens-shoes-nik1zy7ok">
+          <button>
+            <span>Shop now</span>
+            <img src="icons/arrow-right.svg" alt="arrow" />
+          </button>
+        </a>
         <div className="stats">
           <div>
             <h1>1k+</h1>

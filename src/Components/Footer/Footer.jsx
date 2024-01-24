@@ -13,15 +13,15 @@ const Footer = () => {
           perfect Size In Store. Get Rewards
         </p>
         <div className="social-media">
-          <div className="logo-container">
+          <a href='https://www.facebook.com/nike/'className="logo-container">
             <img src="icons/facebook.svg" alt="facebook-logo" />
-          </div>
-          <div className="logo-container">
+          </a>
+          <a href='https://www.instagram.com/nikesportswear/?hl=en' className="logo-container">
             <img src="icons/instagram.svg" alt="instagram-logo" />
-          </div>
-          <div className="logo-container">
+          </a>
+          <a href='https://twitter.com/nikestore' className="logo-container">
             <img src="icons/twitter.svg" alt="twitter-logo" />
-          </div>
+          </a>
         </div>
       </div>
       <div className="second-col">
@@ -29,22 +29,22 @@ const Footer = () => {
           <h1>Products</h1>
           <ul>
             <li>
-              <a href="">Air Force 1</a>
+              <a>Air Force 1</a>
             </li>
             <li>
-              <a href="">Air Max 1</a>
+              <a>Air Max 1</a>
             </li>
             <li>
-              <a href="">Air Jordan 1</a>
+              <a>Air Jordan 1</a>
             </li>
             <li>
-              <a href="">Air Force 2</a>
+              <a>Air Force 2</a>
             </li>
             <li>
-              <a href="">Nike Waffle Racer</a>
+              <a>Nike Waffle Racer</a>
             </li>
             <li>
-              <a href="">Nike Cortez</a>
+              <a>Nike Cortez</a>
             </li>
           </ul>
         </div>
@@ -52,19 +52,19 @@ const Footer = () => {
           <h1>Help</h1>
           <ul>
             <li>
-              <a href="">About Us</a>
+              <a href="https://about.nike.com/en/company">About Us</a>
             </li>
             <li>
-              <a href="">FAQs</a>
+              <a href="https://www.nike.com/in/help/">FAQs</a>
             </li>
             <li>
               <a href="">How it Works</a>
             </li>
             <li>
-              <a href="">Privacy policy</a>
+              <a href="https://agreementservice.svs.nike.com/in/en_gb/rest/agreement?agreementType=privacyPolicy&uxId=com.nike.unite&country=IN&language=en&requestType=redirect">Privacy policy</a>
             </li>
             <li>
-              <a href="">Payment policy</a>
+              <a href="https://www.nike.com/in/help/a/payment-options-gs">Payment policy</a>
             </li>
           </ul>
         </div>
@@ -72,10 +72,10 @@ const Footer = () => {
           <h1>Get in touch</h1>
           <ul>
             <li>
-              <a href="">customer@nike.com</a>
+              <a href="mailto:customer@nike.com">customer@nike.com</a>
             </li>
             <li>
-              <a href="">+92554862354</a>
+              <a>+92554862354</a>
             </li>
           </ul>
         </div>
